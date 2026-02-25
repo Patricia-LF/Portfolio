@@ -1,0 +1,182 @@
+.start-btn {
+    color: var(--accent);
+}
+
+.start-btn:hover {
+    color: var(--text-primary);
+}
+
+body.light .start-btn:hover {
+    color: var(--text-primary);
+}
+
+#project-content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 900px;
+    margin: 40px;
+    padding: 80px;
+    color: var(--text-primary);
+    line-height: 1.6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    gap: 40px;
+    scroll-margin-top: 80px;
+    padding-top: 60px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-page {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.project-left {
+    width: 65%;
+    text-align: justify;
+}
+
+.project-right {
+    height: 25%;
+    width: 25%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.project-right img {
+    border-radius: 8px;
+    width: 130%;
+}
+
+.project-technologies {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.project-links {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.btn-back:hover {
+    color: #fff;
+}
+
+body.light .btn-back:hover {
+    color: black;
+}
+
+/* .mobile-only {
+    display: none;
+}
+
+.project-links.-only {
+    display: none;
+} */
+
+@media screen and (max-width: 768px) {
+    #project-content {
+        flex-direction: column;
+        padding: 25px;
+        margin: 20px;
+        gap: 0;
+    }
+
+    .project-left {
+        width: 100%;
+        order: 2;
+    }
+
+    .project-right {
+        width: 100%;
+        order: 1;
+        margin: 0;
+        padding: 0px 20px 40px;
+    }
+
+    .project-right img {
+        width: 100%;
+    }
+
+    /* #project-page h1 {
+        order: 1;
+        text-align: center;
+    }
+
+    .project-hero {
+        order: 2;
+        width: 100%;
+        margin-top: 0px;
+    } */
+
+/*      .project-content {
+        order: 3;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-hero img {
+        width: 80%;
+    }
+
+    .project-description {
+        width: 100%;
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    .tech-badge {
+        margin: 10px;
+    }
+
+ .mobile-only {
+        order: 4;    
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .mobile-only .project-links {
+        order: 5; /* Demo och GitHub below the image
+    }
+
+    .desktop-only {
+        display: none;
+    } */
+
+    .project-links a {
+        margin: 1rem;
+    }
+
+     .project-links {
+        order: 3;
+        justify-content: center;
+    }
+
+    .btn-back {
+        order: 4;
+        text-align: center;
+    }
+}
+

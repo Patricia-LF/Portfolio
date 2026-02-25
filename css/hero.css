@@ -1,0 +1,68 @@
+/* hero & cta-button */
+#hero {
+    height: 100vh;
+}
+
+#hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.2rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.cta a:hover {
+    background-color: #9d7aff;
+    transform: translateY(-2px);
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-download:hover {
+    background-color: #9d7aff;
+    transform: translateY(-2px);
+}
+
+.btn-download svg {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        height: auto;
+        min-height: 100vh;
+    }
+}

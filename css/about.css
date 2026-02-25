@@ -1,0 +1,83 @@
+#about {
+    height: 100vh;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 40px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.2rem;
+}
+
+.about-text .signature {
+    align-self: flex-end;
+    margin: 20px;
+}
+
+.signature {
+    color: var(--text-primary);
+    width: 200px;
+}
+
+.about-img {
+    width: 30%;
+    display: flex;
+    /* justify-content: center; */
+    margin: 40px 0px 0px
+}
+
+.about-img img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+    height: 100%;
+}
+
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+        margin: 40px 0px 0px;
+        /* text-align: center;
+        justify-self: center;
+        margin: 40px; */
+    }
+
+    .about-img {
+        width: 70%;
+        margin: 0px;
+        /* flex-wrap: wrap; */
+    }
+
+    .about-text .signature {
+    align-self: center;
+    }
+
+    .about-img img {
+    max-width: 100%;
+    }
+}

@@ -1,0 +1,119 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    background-color: var(--bg-surface);
+    border-radius: 10px;
+    padding: 15px 30px;
+    transition: transform 0.3s, box-shadow 0.3s ease;
+}
+
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+/* .project-card > *:not(.card-overlay) {
+    position: relative;
+    z-index: 2;
+} */
+
+.project-card-link {
+    text-decoration: none;
+}
+
+.project-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.btn-arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 3;
+}
+
+/* .btn-arrow svg {
+    z-index: 3;
+} */
+
+body.light .btn-arrow {
+    color: var(--text-primary);
+    background: var(--border-subtle);
+}
+
+.btn-arrow:hover {
+    background-color: var(--accent);
+    transform: scale(1.1);
+}
+
+body.light .btn-arrow:hover {
+    background-color: var(--accent);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.project-card img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.project-description, .project-tech {
+    margin-top: 10px;
+}
+
+.project-links {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.project-links a {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.project-links a:hover {
+    background-color: #9d7aff;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,108 @@
+/* Header and navigation */
+header {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px 15px 20px;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-subtle);
+    z-index: 1000;
+}
+
+header .logo {
+    align-self: flex-end;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header .logo svg {
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+    color: var(--accent);
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: var(--accent);
+}
+
+/* Hamburgermenu for mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-primary);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.theme-toggle svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-primary);
+}
+
+.theme-toggle:hover {
+    transform: rotate(20deg);
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        display: none;
+        flex-direction: column;
+        background-color: #2d2d2df7;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        z-index: 999;
+    }
+
+    body.light header nav {
+        background-color: rgba(245, 245, 245, 0.977);
+    }
+
+    header nav.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

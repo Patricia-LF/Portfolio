@@ -1,0 +1,80 @@
+/* Contact-info & links */
+#contact {
+    height: 100vh;
+    margin: 40px;
+}
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-top: 60px;
+}
+
+.contact-info ul {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.contact-info ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-info img {
+    height: 20px;
+}
+
+.contact-links ul {
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.contact-links ul li a {
+    color: var(--accent);
+    background: var(--bg-header);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    border: 1px solid var(--border-subtle);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-links ul li a:hover {
+    color: plum;
+}
+
+.contact-info svg {
+    width: 20px;
+    height: 20px;
+    color: var(--text-primary);
+}
+
+body.light .contact-info svg {
+    color: var(--text-primary);
+}
+
+@media screen and (max-width: 768px) {
+    #contact {
+        margin: 20px 0;
+        height: 90vh;
+    }
+    
+    .contact-links ul {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
