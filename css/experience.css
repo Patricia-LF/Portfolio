@@ -36,7 +36,6 @@
     font-size: 0.9rem;
 }
 
-/* Mobilanpassning */
 @media screen and (max-width: 768px) {
     .experience-grid {
         grid-template-columns: 1fr;

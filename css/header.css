@@ -61,6 +61,19 @@ header nav a:hover {
     width: 25px;
     height: 3px;
     background-color: var(--text-primary);
+    transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.hamburger.active div:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 .theme-toggle {

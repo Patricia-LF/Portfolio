@@ -39,7 +39,6 @@
 .about-img {
     width: 30%;
     display: flex;
-    /* justify-content: center; */
     margin: 40px 0px 0px
 }
 
@@ -62,15 +61,11 @@
     .about-text {
         width: 100%;
         margin: 40px 0px 0px;
-        /* text-align: center;
-        justify-self: center;
-        margin: 40px; */
     }
 
     .about-img {
-        width: 70%;
+        width: 50%;
         margin: 0px;
-        /* flex-wrap: wrap; */
     }
 
     .about-text .signature {

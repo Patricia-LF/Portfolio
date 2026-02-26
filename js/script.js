@@ -38,13 +38,25 @@ const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('header nav');
 
 hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
     nav.classList.toggle('active');
 });
 
 document.querySelectorAll('header nav a').forEach(link => {
     link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
         nav.classList.remove('active');
     });
+});
+
+document.addEventListener('click', (event) => {
+    const clickedInsideMenu = nav.contains(event.target);
+    const clickedHamburger = hamburger.contains(event.target);
+
+    if (!clickedInsideMenu && !clickedHamburger) {
+        hamburger.classList.remove('active');
+        nav.classList.remove('active');
+    }
 });
 
 const logos = document.querySelectorAll('.logo-spinner img');
