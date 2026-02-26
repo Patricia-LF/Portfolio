@@ -2,7 +2,7 @@
 $projects = [
     'wack-a-rabbit' => [
         'title' => 'Wack-a-rabbit',
-        'description' => 'A simple game where the user is supposed to hit as many rabbits as possible in 30 seconds.',
+        'description' => 'Side project - a fun take on the classic Whack-a-Mole',
         'longDescription' => 'Wack-a-Rabbit is a fun take on the classic Whack-a-Mole game — swap the moles for rabbits and the mole hills for rabbit holes! The goal is to hit as many rabbits as possible within 30 seconds as they randomly pop up from their holes.
 
         I built this as a side project to practice JavaScript beyond the course assignments, applying the skills I had picked up during the semester in a more playful context.
@@ -20,7 +20,7 @@ $projects = [
 
     'kinforma' => [
         'title' => 'Kinforma',
-        'description' => 'A website for a business with the AI-generated name Kinforma, with products launching in February of 2026.',
+        'description' => 'E-commerce website',
         'longDescription' => 'Kinforma is an e-commerce website for lifestyle products, developed in collaboration with design students based on a Figma prototype.
 
         I developed the landing page and parts of the product page, implemented the footer and dynamic product carousels, and structured the product data in arrays for frontend display.
@@ -37,7 +37,7 @@ $projects = [
 
     'futurity' => [
         'title' => 'Futurity',
-        'description' => 'A site for a cinema called Futurity.',
+        'description' => 'Cinema website with sci-fi theme',
         'longDescription' => 'Futurity is a cinema website with a sci-fi theme, built as part of a course focused on learning the fundamentals of Figma and design collaboration. The site features carousels for now-showing and upcoming films, food and drink offers, and a newsletter sign-up.
 
         Two out of three group members, myself included, were particularly engaged in the design work and each created our own Figma drafts. We then combined the best elements from both into a final design. On the development side, I was responsible for the film page and its mobile version, parts of the landing page, and a hamburger menu for mobile navigation.
@@ -52,8 +52,8 @@ $projects = [
     ],
 
     'simplyseries' => [
-        'title' => 'SimplySeries',
-        'description' => 'A website for searching tv-shows using a public API.',
+        'title' => 'Simply Series',
+        'description' => 'TV show search application',
         'longDescription' => 'SimplySeries is a TV show search application built with JavaScript, using the TVMaze public API. The site features a search page, a results page displaying the best matching shows as cards, and an individual show page where you can explore seasons and episodes in detail.
 
         As an individual project, I handled everything from the API integration and JavaScript logic to the page structure and styling.
@@ -69,7 +69,7 @@ $projects = [
 
     'yrgopelag' => [
         'title' => 'Yrgopelag',
-        'description' => 'A website for a made up hotel, Infinity Hotel, with a booking form and a payment function with credits.',
+        'description' => 'Hotel booking system',
         'longDescription' => 'Yrgopelago is a hotel booking system built with PHP and SQLite, featuring room availability, bookings, add-ons and a credit-based payment system.
 
         I designed the full database structure for users, rooms, bookings and add-ons, and implemented the booking logic including availability checks and validation. I also built the admin page where prices and features could be managed.
@@ -87,7 +87,7 @@ $projects = [
 
     'plan2plate' => [
         'title' => 'Plan2Plate',
-        'description' => 'A recipe-search application. Developed with Node.js, using an API called Spoonacular.',
+        'description' => 'Recipe-search application',
         'longDescription' => 'Plan2Plate is a recipe search application built with Node.js, using the Spoonacular API to fetch and display recipes based on user input.
 
         I was responsible for all frontend development and shaping the visual identity of the application, from layout design to creating the logo in Figma. On the backend side, I implemented the integration against the Spoonacular REST API, developed server logic for handling and filtering API responses, and set up email functionality using SMTP and Nodemailer.
