@@ -1,19 +1,21 @@
 <?php
 $projects = [
-    'someteams' => [
-        'title' => 'Some teams',
-        'description' => 'A site about the Champions League women\'s teams.',
-        'longDescription' => 'Some Teams is a website about Champions League women\'s teams, built with PHP and basic CSS. The site displays team cards on the landing page, each linking to a dedicated team page with more information. There is also an about page.
+    'wack-a-rabbit' => [
+        'title' => 'Wack-a-rabbit',
+        'description' => 'A simple game where the user is supposed to hit as many rabbits as possible in 30 seconds.',
+        'longDescription' => 'Wack-a-Rabbit is a fun take on the classic Whack-a-Mole game — swap the moles for rabbits and the mole hills for rabbit holes! The goal is to hit as many rabbits as possible within 30 seconds as they randomly pop up from their holes.
 
-        As an individual project, I was responsible for everything — implementing the data from a predefined array of teams, structuring the pages and making sure the navigation between the landing page and individual team pages worked correctly.
+        I built this as a side project to practice JavaScript beyond the course assignments, applying the skills I had picked up during the semester in a more playful context.
 
-        This being my first project in the program, frontend styling was still new territory. The focus at this stage was on getting the PHP logic and page structure right rather than polished design. Looking back, the difference in design quality between this project and later ones is quite visible — which I think is a good sign of progress!',
-        'technologies' => ['PHP', 'CSS'],
-        'demolink' => 'https://wu-project.se/some-teams/',
-        'githubLink' => 'https://github.com/Patricia-LF/some-teams.git',
-        'image' => 'someteams-img.jpg',
-        'mockup' => 'someteams-desktop.png',
-        'mock-mob' => 'someteams-mob.png',
+        The trickiest part was getting the z-index and positioning right so that the rabbits appear to come up from inside the holes rather than popping up in front of or behind them — a small detail that makes a big visual difference for the feel of the game.
+
+        There is plenty of room to expand the game — multiple difficulty levels with increasing rabbit speed, user accounts with saved scores, and a leaderboard are all ideas I would like to explore if I return to the project.',
+        'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
+        'demolink' => 'https://wu-project.se/wack-a-rabbit/',
+        'githubLink' => 'https://github.com/Patricia-LF/wack-a-rabbit',
+        'image' => 'wackarabbit-img.jpg',
+        'mockup' => 'wack-a-rabbit-desktop.png',
+        'mock-mob' => 'wackarabbit-mob.png',
     ],
 
     'kinforma' => [
@@ -81,24 +83,6 @@ $projects = [
         'image' => 'yrgopelag-img.jpg',
         'mockup' => 'yrgopelag-desktop.png',
         'mock-mob' => 'yrgopelag-mob.png',
-    ],
-
-    'wack-a-rabbit' => [
-        'title' => 'Wack-a-rabbit',
-        'description' => 'A simple game where the user is supposed to hit as many rabbits as possible in 30 seconds.',
-        'longDescription' => 'Wack-a-Rabbit is a fun take on the classic Whack-a-Mole game — swap the moles for rabbits and the mole hills for rabbit holes! The goal is to hit as many rabbits as possible within 30 seconds as they randomly pop up from their holes.
-
-        I built this as a side project to practice JavaScript beyond the course assignments, applying the skills I had picked up during the semester in a more playful context.
-
-        The trickiest part was getting the z-index and positioning right so that the rabbits appear to come up from inside the holes rather than popping up in front of or behind them — a small detail that makes a big visual difference for the feel of the game.
-
-        There is plenty of room to expand the game — multiple difficulty levels with increasing rabbit speed, user accounts with saved scores, and a leaderboard are all ideas I would like to explore if I return to the project.',
-        'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
-        'demolink' => 'https://wu-project.se/wack-a-rabbit/',
-        'githubLink' => 'https://github.com/Patricia-LF/wack-a-rabbit',
-        'image' => 'wackarabbit-img.jpg',
-        'mockup' => 'wack-a-rabbit-desktop.png',
-        'mock-mob' => 'wackarabbit-mob.png',
     ],
 
     'plan2plate' => [

@@ -4,7 +4,7 @@ const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 
 
 const moonIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /></svg>`;
 
-// Kolla om användaren hade ett sparat val
+// Check if user has a saved choice
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'light') {
     document.body.classList.add('light');
@@ -22,7 +22,6 @@ themeToggle.addEventListener('click', () => {
 
 document.querySelectorAll('.project-card img').forEach(img => {
     img.addEventListener('click', () => {
-        // Exempel: förstora bilden i en lightbox
         const modal = document.createElement('div');
         modal.classList.add('modal');
         modal.innerHTML = `<img src="${img.src}" alt="${img.alt}"><span class="close">&times;</span>`;
@@ -68,7 +67,7 @@ function nextLogo() {
     logos[current].classList.add('active');
 }
 
-// Visa första loggan direkt
+// Show first logo immediately
 logos[0].classList.add('active');
 
 // Change every 2 sekonds

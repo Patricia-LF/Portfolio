@@ -26,7 +26,6 @@ require_once 'functions/helpers.php';
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/experience.css">
     <link rel="stylesheet" href="css/contact.css">
-    <!-- <link rel="stylesheet" href="css/project-page.css"> -->
 </head>
 
 <body>
@@ -177,7 +176,6 @@ require_once 'functions/helpers.php';
                         </article>
                     <?php endforeach; ?>
                 </div>
-                <!-- </section> -->
             </div>
         </section>
 

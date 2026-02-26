@@ -39,7 +39,6 @@ body.light .start-btn:hover {
 
 .project-left {
     width: 65%;
-    text-align: justify;
 }
 
 .project-right {
@@ -83,14 +82,6 @@ body.light .btn-back:hover {
     color: black;
 }
 
-/* .mobile-only {
-    display: none;
-}
-
-.project-links.-only {
-    display: none;
-} */
-
 @media screen and (max-width: 768px) {
     #project-content {
         flex-direction: column;
@@ -114,56 +105,6 @@ body.light .btn-back:hover {
     .project-right img {
         width: 100%;
     }
-
-    /* #project-page h1 {
-        order: 1;
-        text-align: center;
-    }
-
-    .project-hero {
-        order: 2;
-        width: 100%;
-        margin-top: 0px;
-    } */
-
-/*      .project-content {
-        order: 3;
-        width: 100%;
-        padding-left: 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .project-hero img {
-        width: 80%;
-    }
-
-    .project-description {
-        width: 100%;
-        padding-left: 0;
-        text-align: justify;
-    }
-
-    .tech-badge {
-        margin: 10px;
-    }
-
- .mobile-only {
-        order: 4;    
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .mobile-only .project-links {
-        order: 5; /* Demo och GitHub below the image
-    }
-
-    .desktop-only {
-        display: none;
-    } */
 
     .project-links a {
         margin: 1rem;

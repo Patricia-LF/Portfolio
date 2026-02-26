@@ -18,11 +18,6 @@
     z-index: 1;
 }
 
-/* .project-card > *:not(.card-overlay) {
-    position: relative;
-    z-index: 2;
-} */
-
 .project-card-link {
     text-decoration: none;
 }
@@ -53,10 +48,6 @@
     transition: background-color 0.3s, transform 0.3s;
     z-index: 3;
 }
-
-/* .btn-arrow svg {
-    z-index: 3;
-} */
 
 body.light .btn-arrow {
     color: var(--text-primary);
