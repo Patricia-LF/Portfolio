@@ -28,7 +28,7 @@ $projects = [
         Working from a Figma design created by others required close attention to detail to make sure the implementation matched the intended design. Collaborating across disciplines also meant adapting to different workflows and ways of communicating.. 
         
         Since it was our first group project with other educations, we learnt a lot about how to work in a team.',
-        'technologies' => ['PHP', 'HTML', 'CSS'],
+        'technologies' => ['PHP', 'HTML', 'CSS', 'Figma'],
         'demolink' => 'https://wu-project.se/kinforma/',
         'githubLink' => 'https://github.com/Patricia-LF/kinforma',
         'mockup' => 'kinforma-desktop.png',
