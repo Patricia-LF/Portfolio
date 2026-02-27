@@ -185,7 +185,7 @@ require_once 'functions/helpers.php';
                 <div class="about-me">
                     <article class="about-text">
                         <p>
-                            I’m currently studying Web Development at Yrgo, focusing on creating structured and maintainable applications. I enjoy seeing how systems work behind the scenes and building solutions that are both logical and user-friendly. This semester, I’m expanding my toolkit with C#, Laravel, Next.js, TypeScript, and WordPress, giving me a mix of backend depth and frontend flexibility.
+                            I’m currently studying Web Development at Yrgo, focusing on creating structured and maintainable applications. I enjoy seeing how systems work behind the scenes and building solutions that are both logical and user-friendly. This semester, I’m expanding my toolkit with C#, Laravel, React.js, Next.js, TypeScript, and WordPress, giving me a mix of backend depth and frontend flexibility.
                         </p>
                         <p>
                             I'm also comfortable using AI as a learning and productivity tool — not as a shortcut, but as a way to deepen my understanding and work more efficiently. In a field that's evolving rapidly, knowing how to leverage the right tools is just as important as the fundamentals.
