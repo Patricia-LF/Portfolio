@@ -30,6 +30,13 @@ body.light .start-btn:hover {
     text-align: center;
 }
 
+.project-meta {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
 .project-page {
     display: flex;
     justify-self: center;

@@ -64,6 +64,9 @@ require_once 'functions/helpers.php';
             <div class="project-page">
                 <!-- Left column -->
                 <div class="project-left">
+                    <?php if (!empty($project['meta'])): ?>
+                        <p class="project-meta"><?php echo htmlspecialchars($project['meta']); ?></p>
+                    <?php endif; ?>
                     <p class="project-description"><?php echo nl2br(htmlspecialchars($project['longDescription'])); ?></p>
                     <div class="project-technologies">
                         <?php foreach ($project['technologies'] as $tech): ?>

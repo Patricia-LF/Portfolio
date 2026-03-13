@@ -65,7 +65,7 @@ require_once 'functions/helpers.php';
                 <p class="subtitle">Web Developer Student</p>
 
                 <p class="intro">
-                    Hi! I’m Patricia, currently studying Web Development at Yrgo. I love building clean, maintainable apps where backend logic and frontend experience work together.
+                    Hi! I’m Patricia, currently studying Web Development at Yrgo. I love building clean, maintainable apps where backend logic and frontend experience work together. I'm actively looking for a LIA internship for the period Nov 23, 2026 – May 28, 2027.
                 </p>
 
                 <div class="cta">
@@ -89,6 +89,7 @@ require_once 'functions/helpers.php';
                             <ul>
                                 <li>PHP<img src="assets/logos/php-logo.png"> </li>
                                 <li>Node<img src="assets/logos/node-js-logo.png"></li>
+                                <li>Laravel<img src="assets/logos/laravel-logo.png"></li>
                             </ul>
                         </div>
 
@@ -105,6 +106,7 @@ require_once 'functions/helpers.php';
                             <h3>Database</h3>
                             <ul>
                                 <li>SQlite<img src="assets/logos/sqlite-logo.webp"></li>
+                                <li>MySql<img src="assets/logos/mysql-logo.png"></li>
                             </ul>
                         </div>
                     </div>
@@ -193,12 +195,15 @@ require_once 'functions/helpers.php';
                         <p>
                             With a background as a Biomedical Analyst and a passion for computers and organizing data, moving into web development felt like a natural next step. Outside of coding, I enjoy exploring creative outlets – painting, 3D graphics in Blender, and digital design – which helps me bring a visual perspective to the applications I build. I’m fascinated by how creativity and logic can come together to create digital experiences that are both functional and beautiful.
                         </p>
+                        <p>
+                            Alongside my studies, I'm working on two side projects — a Node.js-based online text-TV service and a React application currently in the planning stage.
+                        </p>
                         <div class="signature">
                             <?php require 'includes/signature.php'; ?>
                         </div>
                     </article>
                     <div class="about-img">
-                        <img src="assets/images/Jag.jpg">
+                        <img src="assets/images/me.jpg">
                     </div>
                 </div>
             </div>
