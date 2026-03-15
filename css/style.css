@@ -58,6 +58,7 @@ main > section {
 
 /* Section headers */
 section h1, section h2 {
+    font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
     color: var(--text-primary);
@@ -66,7 +67,7 @@ section h1, section h2 {
 .tech-badge {
     display: inline-block;
     padding: 6px 14px;
-    margin: 4px 6px 0 0;
+    margin: 4px;
     border-radius: 5px;
     font-size: 0.8rem;
     font-weight: 600;
@@ -80,6 +81,12 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: var(--bg-surface);
+}
+
+@media (max-width: 768px) {
+    section h1, section h2 {
+        font-size: 2rem;
+    }
 }
 
 

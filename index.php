@@ -65,7 +65,9 @@ require_once 'functions/helpers.php';
                 <p class="subtitle">Web Developer Student</p>
 
                 <p class="intro">
-                    Hi! I’m Patricia, currently studying Web Development at Yrgo. I love building clean, maintainable apps where backend logic and frontend experience work together. I'm actively looking for a LIA internship for the period Nov 23, 2026 – May 28, 2027.
+                    Hi! I’m Patricia, currently studying Web Development at Yrgo in Gothenburg. I love building clean, maintainable apps where backend logic and frontend experience work together.
+                </p>
+                <p class="intro">I'm actively looking for a LIA internship for the period Nov 23, 2026 – May 28, 2027.
                 </p>
 
                 <div class="cta">
@@ -187,7 +189,7 @@ require_once 'functions/helpers.php';
                 <div class="about-me">
                     <article class="about-text">
                         <p>
-                            I’m currently studying Web Development at Yrgo, focusing on creating structured and maintainable applications. I enjoy seeing how systems work behind the scenes and building solutions that are both logical and user-friendly. This semester, I’m expanding my toolkit with C#, Laravel, React.js, Next.js, TypeScript, and WordPress, giving me a mix of backend depth and frontend flexibility.
+                            I’m currently studying Web Development at Yrgo in Gothenburg, focusing on creating structured and maintainable applications. I enjoy seeing how systems work behind the scenes and building solutions that are both logical and user-friendly. This semester, I’m expanding my toolkit with C#, Laravel, React.js, Next.js, TypeScript, and WordPress, giving me a mix of backend depth and frontend flexibility.
                         </p>
                         <p>
                             I'm also comfortable using AI as a learning and productivity tool — not as a shortcut, but as a way to deepen my understanding and work more efficiently. In a field that's evolving rapidly, knowing how to leverage the right tools is just as important as the fundamentals.

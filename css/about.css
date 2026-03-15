@@ -42,7 +42,7 @@
 }
 
 .about-img img {
-    max-width: 60%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
 }
@@ -63,7 +63,7 @@
     }
 
     .about-img {
-        width: 50%;
+        width: 80%;
         margin: 0px;
     }
 

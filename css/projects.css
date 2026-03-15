@@ -77,6 +77,11 @@ body.light .btn-arrow:hover {
     margin-top: 10px;
 }
 
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project-links {
     position: relative;
     z-index: 2;
