@@ -18,6 +18,30 @@ $projects = [
         'mock-mob' => 'wackarabbit-mob.png',
     ],
 
+    'LIA Connect' => [
+        'title' => 'LIA Connect',
+        'description' => 'Networking tool for a LIA event',
+        'meta' => 'Group project - 4 people, 2 web developers | 4 weeks',
+        'longDescription' => 'LIA Connect is a mobile-first React networking application built for an Yrgo LIA event, where students and companies can connect based on shared interests.
+
+    Users choose their role — student or company representative — and select interest categories such as Frontend, UX, Branding or Motion Design. Each category has a unique color, and the selections generate a visual profile consisting of an animated circle organism and a stack of interest cards with tailored conversation starters for both students and companies.
+
+    Features
+    The app includes a start page with a LIA Connect animation, description of the app, and buttons to choose between student/company, and a profile form with role selection, interest picking and an optional portfolio URL field. On the result page, students can open a slide-in drawer to display a QR code linking to their portfolio. The animated circle organism reflects the user\'s chosen interest colors, and the interest cards expand to show relevant questions and attributes.
+
+    My responsibilities
+    I was one of two web developers in a cross-disciplinary group also consisting of two digital design students. I was responsible for the React architecture, component structure and data layer — including the companies and interests data files, matching utilities and routing setup. I built several key components including the ProfileForm, ResultPage, CircleOrganism color integration, QR drawer and the DotText canvas animation on the hero. I also handled deployment configuration and Git workflow across the team.
+
+    Challenges
+    Building a smooth card stack with touch-based scroll on mobile required significant iteration to get the interaction feeling right. Collaborating across disciplines — aligning on concept and design decisions with the design students while keeping the codebase clean — was both a challenge and one of the most rewarding parts of the project.',
+        'technologies' => ['React', 'JavaScript', 'CSS modules', 'Vite'],
+        'demolink' => ' https://lia-connect-chi.vercel.app/',
+        'githubLink' => 'https://github.com/Patricia-LF/LIA-connect',
+        'image' => 'LIA-connect.jpg',
+        'mockup' => 'LIA-connect-desktop.png',
+        'mock-mob' => 'LIA-connect-mob.png',
+    ],
+
     'CloudOps' => [
         'title' => 'CloudOps',
         'description' => 'Admin application',
@@ -36,7 +60,7 @@ $projects = [
         
         Note: The site is not optimized for mobile, as it was not a requirement for the assignment.',
         'technologies' => ['PHP', 'Laravel', 'JavaScript', 'HTML', 'CSS'],
-        'demolink' => '',
+        'demolink' => 'https://cloudops.on-forge.com/',
         'githubLink' => 'https://github.com/Patricia-LF/CloudOps.git',
         'image' => 'cloudops-img.jpg',
         'mockup' => 'cloudops - desktop.png',

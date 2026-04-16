@@ -92,6 +92,7 @@ require_once 'functions/helpers.php';
                                 <li>PHP<img src="assets/logos/php-logo.png"> </li>
                                 <li>Node<img src="assets/logos/node-js-logo.png"></li>
                                 <li>Laravel<img src="assets/logos/laravel-logo.png"></li>
+                                <li>C#<img src="assets/logos/csharp.png"></li>
                             </ul>
                         </div>
 
@@ -101,6 +102,7 @@ require_once 'functions/helpers.php';
                                 <li>HTML<img src="assets/logos/html-logo.png"></li>
                                 <li>CSS<img src="assets/logos/css-logo.png"></li>
                                 <li>JavaScript<img src="assets/logos/js-logo.png"></li>
+                                <li>React<img src="assets/logos/react-logo.png"></li>
                             </ul>
                         </div>
 
