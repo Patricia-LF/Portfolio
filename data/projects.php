@@ -34,7 +34,7 @@ $projects = [
 
     Challenges
     Building a smooth card stack with touch-based scroll on mobile required significant iteration to get the interaction feeling right. Collaborating across disciplines — aligning on concept and design decisions with the design students while keeping the codebase clean — was both a challenge and one of the most rewarding parts of the project.',
-        'technologies' => ['React', 'JavaScript', 'CSS modules', 'Vite'],
+        'technologies' => ['React', 'JavaScript', 'CSS modules', 'Vite', 'Figma'],
         'demolink' => ' https://lia-connect-chi.vercel.app/',
         'githubLink' => 'https://github.com/Patricia-LF/LIA-connect',
         'image' => 'LIA-connect.jpg',
