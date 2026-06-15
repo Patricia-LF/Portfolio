@@ -92,7 +92,7 @@ require_once 'functions/helpers.php';
                         <a href="<?php echo $project['githubLink']; ?>" target="_blank" class="btn-github">GitHub</a>
                     <?php endif; ?>
                 </div>
-                <a href="index.php" class="btn-back">← Back to start</a>
+                <a href="index.php" class="btn-back">←</a>
             </div>
         </article>
 
@@ -134,10 +134,15 @@ require_once 'functions/helpers.php';
                 </div>
             </div>
         </section>
+
+        <button id="backToTop" class="start-btn" aria-label="Back to top">
+            ↑
+        </button>
     </main>
 
     <?php require 'footer.php'; ?>
     <script src="js/script.js"></script>
+    <script src="js/top.js"></script>
 </body>
 
 </html>
