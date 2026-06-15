@@ -18,6 +18,29 @@ $projects = [
         'mock-mob' => 'wackarabbit-mob.png',
     ],
 
+    'Runtime terror' => [
+        'title' => 'Runtime Terror',
+        'description' => 'Haunted house attraction built for the Yrgo Tivoli',
+        'meta' => 'Group project – 3 people | 3 weeks',
+        'longDescription' => 'Runtime Terror is a haunted house attraction built as part of the Yrgo Tivoli project — a shared amusement park platform where each group contributed their own game or ride. The attraction takes the player through four rooms of horrors: a graveyard, a doll room, a spider room and a clown room, each with its own interactions, animations and sound design.
+
+    Features
+    Each room has unique mechanics — clicking gravestones to trigger effects in the graveyard, making the doll speak (and risking a jumpscare) in the doll room, removing spider webs and finding and clicking on a ghost in the spider room, and popping balloons to keep the clown at bay in the clown room. Rooms are connected by animated door transitions with crossfading ambient sound. A context-sensitive help button in each room meets WCAG 3.3.5 requirements, and the full game is keyboard navigable with screen reader support.
+
+    My responsibilities
+    I held the frontend lead role and was responsible for the overall visual direction, design system and component architecture. I built the start page, the graveyard the doll and the clown rooms, the spider drop animation, the bat sprite animation, fog effects, the golden key animation, the door transition component, the loading screen and the end page. I also contributed to the Zustand game state store, audio management with Howler.js, and the overall layout and styling across the project.
+
+    Challenges
+    Coordinating room-level audio across a shared Zustand store — ensuring ambient sound crossfaded correctly between rooms while effect sounds stopped on room exit — required careful architecture. Getting the haunted house atmosphere to feel right on both mobile and desktop, while meeting accessibility requirements, was a balancing act that pushed us to make deliberate decisions at every step.',
+
+        'technologies' => ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer Motion', 'Howler.js', 'Zustand'],
+        'demolink' => 'https://runtime-terror-app.vercel.app/',
+        'githubLink' => 'https://github.com/Patricia-LF/runtime-terror',
+        'image' => '',
+        'mockup' => 'runtime-desktop.png',
+        'mock-mob' => 'runtime-mob.png',
+    ],
+
     'LIA Connect' => [
         'title' => 'LIA Connect',
         'description' => 'Networking tool for a LIA event',

@@ -93,6 +93,8 @@ require_once 'functions/helpers.php';
                                 <li>Node<img src="assets/logos/node-js-logo.png"></li>
                                 <li>Laravel<img src="assets/logos/laravel-logo.png"></li>
                                 <li>C#<img src="assets/logos/csharp.png"></li>
+                                <li>Next.js<img src="assets/logos/next-logo.png"></li>
+                                <li>TypeScript<img src="assets/logos/typescript-logo.png"></li>
                             </ul>
                         </div>
 
@@ -103,6 +105,7 @@ require_once 'functions/helpers.php';
                                 <li>CSS<img src="assets/logos/css-logo.png"></li>
                                 <li>JavaScript<img src="assets/logos/js-logo.png"></li>
                                 <li>React<img src="assets/logos/react-logo.png"></li>
+                                <li>Tailwind<img src="assets/logos/tailwind-logo.jpg"></li>
                             </ul>
                         </div>
 
