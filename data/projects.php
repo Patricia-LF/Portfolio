@@ -15,7 +15,7 @@ $projects = [
         'githubLink' => 'https://github.com/Patricia-LF/wack-a-rabbit',
         'image' => 'wackarabbit-img.jpg',
         'mockup' => 'wack-a-rabbit-desktop.png',
-        'mock-mob' => 'wackarabbit-mob.png',
+        'mock-mob' => 'wack-a-rabbit-mob.png',
     ],
 
     'Runtime terror' => [
@@ -86,7 +86,7 @@ $projects = [
         'demolink' => 'https://cloudops.on-forge.com/',
         'githubLink' => 'https://github.com/Patricia-LF/CloudOps.git',
         'image' => 'cloudops-img.jpg',
-        'mockup' => 'cloudops - desktop.png',
+        'mockup' => 'cloudops-desktop.png',
         'mock-mob' => 'cloudops-mob.png',
     ],
 
@@ -174,7 +174,7 @@ $projects = [
         'demolink' => 'https://wu-project.se/bio-hemsida/',
         'githubLink' => 'https://github.com/Patricia-LF/bio-hemsida',
         'image' => 'bio-futurity-img.jpg',
-        'mockup' => 'bio-futurity-desktop.png',
+        'mockup' => 'futurity-desktop.png',
         'mock-mob' => 'futurity-mob.png',
     ],
 ];
