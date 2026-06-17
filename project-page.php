@@ -35,7 +35,7 @@ require_once 'functions/helpers.php';
 
 <body>
     <header>
-        <a href="/" class="signature-link">
+        <a href="index.php" class="signature-link">
             <div class="logo">
                 <?php require 'includes/signature.php'; ?>
             </div>
