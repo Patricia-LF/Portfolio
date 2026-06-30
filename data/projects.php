@@ -1,5 +1,62 @@
 <?php
 $projects = [
+    'Booking system' => [
+        'title' => 'Booking system',
+        'description' => 'Side project - A full-stack booking system built with a C# REST API and React — currently in progress.',
+        'longDescription' => 'This is a side project I started during the summer to deepen my understanding of C# and backend development. The goal is to build a complete booking system from scratch — something I’m likely to encounter if working as a consultant.
+        
+        The backend is built with ASP.NET Core Web API and Entity Framework Core, connected to a SQLite database. The frontend is built with React and TypeScript using Vite, with React Router for navigation.
+
+        So far the system supports creating and managing customers, services, and bookings — including automatic end time calculation based on service duration.
+
+        Currently working on: styling with CSS Modules.
+
+        Planned features: validation on the backend, a calendar view for available time slots, and authentication.',
+
+        'technologies' => ['C#', 'React', 'TypeScript', 'CSS modules', 'Vite'],
+        'demolink' => '',
+        'githubLink' => 'https://github.com/Patricia-LF/booking-system',
+        'image' => 'in-progress.png',
+        'mockup' => 'in-progress-booking-desktop.png',
+        'mock-mob' => 'in-progress-booking-mob.png',
+    ],
+
+    'TextTV online' => [
+        'title' => 'TextTV online',
+        'description' => 'Side project — a modern, accessible take on TextTV, built with Node.js. Currently in progress.',
+        'longDescription' => 'I started this project during the summer to deepen my understanding of Node.js. My dad still reads TextTV every day, and I know a lot of older people do too — so the idea was to bring that same simplicity online, but with a more modern look and stronger focus on accessibility (WCAG).
+        
+        The app fetches live content from a public TextTV API and presents it through clear, navigable sections: domestic news, foreign news, sports, and weather. The start page gives a quick overview of each, with dedicated pages for the full content.
+        
+        Currently working on: a page-number search feature, and refining the content layout and styling section by section.
+        
+        Planned features: improved error handling for the API integration, and a settings panel for font size and contrast — small touches aimed at making the experience more comfortable for less tech-savvy users.',
+
+        'technologies' => ['Node.js', 'CSS'],
+        'demolink' => '',
+        'githubLink' => 'https://github.com/Patricia-LF/textTVonline',
+        'image' => 'in-progress.png',
+        'mockup' => 'in-progress-textTV-desktop.png',
+        'mock-mob' => 'in-progress-textTV-mob.png',
+    ],
+
+    'Almas portfolio' => [
+        'title' => 'Almas portfolio',
+        'description' => 'Side project — a portfolio website for a design student, built with WordPress. Currently in progress.',
+        'longDescription' => 'Alma, a graphic design and production student at Yrgo, needed help creating a portfolio site. I took on this project as a way to deepen my WordPress skills outside of school.
+
+    I\'ve planned and led the project from start to finish in close collaboration with Alma — from concept and design to development — with her approval at every step along the way.
+
+    Currently working on: final details and refinements before launch.',
+
+        'technologies' => ['WordPress', 'CSS'],
+        'demolink' => '',
+        'githubLink' => 'https://github.com/Patricia-LF/Almas-portfolio',
+        'image' => 'in-progress.png',
+        'mockup' => 'in-progress-portfolio-desktop.png',
+        'mock-mob' => 'in-progress-portfolio-mob.png',
+    ],
+
     'wack-a-rabbit' => [
         'title' => 'Wack-a-rabbit',
         'description' => 'Side project - a fun take on the classic Whack-a-Mole',
@@ -10,6 +67,7 @@ $projects = [
         The trickiest part was getting the z-index and positioning right so that the rabbits appear to come up from inside the holes rather than popping up in front of or behind them — a small detail that makes a big visual difference for the feel of the game.
 
         There is plenty of room to expand the game — multiple difficulty levels with increasing rabbit speed, user accounts with saved scores, and a leaderboard are all ideas I would like to explore if I return to the project.',
+
         'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
         'demolink' => 'https://wu-project.se/wack-a-rabbit/',
         'githubLink' => 'https://github.com/Patricia-LF/wack-a-rabbit',
@@ -23,15 +81,15 @@ $projects = [
         'description' => 'Haunted house attraction built for the Yrgo Tivoli',
         'meta' => 'Group project – 3 people | 3 weeks',
         'longDescription' => 'Runtime Terror is a haunted house attraction built as part of the Yrgo Tivoli project — a shared amusement park platform where each group contributed their own game or ride. The attraction takes the player through four rooms of horrors: a graveyard, a doll room, a spider room and a clown room, each with its own interactions, animations and sound design.
-
-    Features
-    Each room has unique mechanics — clicking gravestones to trigger effects in the graveyard, making the doll speak (and risking a jumpscare) in the doll room, removing spider webs and finding and clicking on a ghost in the spider room, and popping balloons to keep the clown at bay in the clown room. Rooms are connected by animated door transitions with crossfading ambient sound. A context-sensitive help button in each room meets WCAG 3.3.5 requirements, and the full game is keyboard navigable with screen reader support.
-
-    My responsibilities
-    I held the frontend lead role and was responsible for the overall visual direction, design system and component architecture. I built the start page, the graveyard the doll and the clown rooms, the spider drop animation, the bat sprite animation, fog effects, the golden key animation, the door transition component, the loading screen and the end page. I also contributed to the Zustand game state store, audio management with Howler.js, and the overall layout and styling across the project.
-
-    Challenges
-    Coordinating room-level audio across a shared Zustand store — ensuring ambient sound crossfaded correctly between rooms while effect sounds stopped on room exit — required careful architecture. Getting the haunted house atmosphere to feel right on both mobile and desktop, while meeting accessibility requirements, was a balancing act that pushed us to make deliberate decisions at every step.',
+        
+        Features
+        Each room has unique mechanics — clicking gravestones to trigger effects in the graveyard, making the doll speak (and risking a jumpscare) in the doll room, removing spider webs and finding and clicking on a ghost in the spider room, and popping balloons to keep the clown at bay in the clown room. Rooms are connected by animated door transitions with crossfading ambient sound. A context-sensitive help button in each room meets WCAG 3.3.5 requirements, and the full game is keyboard navigable with screen reader support.
+        
+        My responsibilities
+        I held the frontend lead role and was responsible for the overall visual direction, design system and component architecture. I built the start page, the graveyard the doll and the clown rooms, the spider drop animation, the bat sprite animation, fog effects, the golden key animation, the door transition component, the loading screen and the end page. I also contributed to the Zustand game state store, audio management with Howler.js, and the overall layout and styling across the project.
+        
+        Challenges
+        Coordinating room-level audio across a shared Zustand store — ensuring ambient sound crossfaded correctly between rooms while effect sounds stopped on room exit — required careful architecture. Getting the haunted house atmosphere to feel right on both mobile and desktop, while meeting accessibility requirements, was a balancing act that pushed us to make deliberate decisions at every step.',
 
         'technologies' => ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer Motion', 'Howler.js', 'Zustand'],
         'demolink' => 'https://runtime-terror-app.vercel.app/',
@@ -57,6 +115,7 @@ $projects = [
 
     Challenges
     Building a smooth card stack with touch-based scroll on mobile required significant iteration to get the interaction feeling right. Collaborating across disciplines — aligning on concept and design decisions with the design students while keeping the codebase clean — was both a challenge and one of the most rewarding parts of the project.',
+
         'technologies' => ['React', 'JavaScript', 'CSS modules', 'Vite', 'Figma'],
         'demolink' => ' https://lia-connect-chi.vercel.app/',
         'githubLink' => 'https://github.com/Patricia-LF/LIA-connect',
@@ -82,6 +141,7 @@ $projects = [
         Working with Eloquent relationships and pivot tables required careful planning of the database structure. Keeping the styling consistent across multiple views while both of us were actively developing new features at the same time was also a challenge that required good communication and clear code reviews.
         
         Note: The site is not optimized for mobile, as it was not a requirement for the assignment.',
+
         'technologies' => ['PHP', 'Laravel', 'JavaScript', 'HTML', 'CSS'],
         'demolink' => 'https://cloudops.on-forge.com/',
         'githubLink' => 'https://github.com/Patricia-LF/CloudOps.git',
@@ -99,6 +159,7 @@ $projects = [
         I was responsible for all frontend development and shaping the visual identity of the application, from layout design to creating the logo in Figma. On the backend side, I implemented the integration against the Spoonacular REST API, developed server logic for handling and filtering API responses, and set up email functionality using SMTP and Nodemailer.
 
         Working with asynchronous data handling and extensive error handling was a key challenge — making sure the app handled failed API calls gracefully without breaking the user experience.',
+
         'technologies' => ['JavaScript', 'Node.js', 'HTML', 'CSS'],
         'demolink' => 'https://plan2plate-recipes.vercel.app/',
         'githubLink' => 'https://github.com/Patricia-LF/plan2plate.git',
@@ -118,6 +179,7 @@ $projects = [
         Working from a Figma design created by others required close attention to detail to make sure the implementation matched the intended design. Collaborating across disciplines also meant adapting to different workflows and ways of communicating.. 
         
         Since it was our first group project with other educations, we learnt a lot about how to work in a team.',
+
         'technologies' => ['PHP', 'HTML', 'CSS', 'Figma'],
         'demolink' => 'https://wu-project.se/kinforma/',
         'githubLink' => 'https://github.com/Patricia-LF/kinforma',
@@ -136,6 +198,7 @@ $projects = [
         Getting the availability logic right was tricky — making sure overlapping bookings were correctly handled in the database required careful planning of the query structure.
         
         Note: The site is not optimized for mobile, as it was not a requirement for the assignment. This is something I plan to address if I revisit the project.',
+
         'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
         'demolink' => 'https://wu-project.se/yrgopelag/',
         'githubLink' => 'https://github.com/Patricia-LF/yrgopelag.git',
@@ -153,6 +216,7 @@ $projects = [
         As an individual project, I handled everything from the API integration and JavaScript logic to the page structure and styling.
 
         This was my first real encounter with JavaScript, and I found it genuinely difficult at first — particularly understanding how asynchronous code and fetch requests work. I used AI as a learning tool to understand the concepts rather than just getting the answers, which helped me work through the logic step by step. In the end it turned out to be one of my more successful early projects, and it gave me a much stronger foundation in JavaScript going forward.',
+
         'technologies' => ['JavaScript', 'HTML', 'CSS'],
         'demolink' => 'https://wu-project.se/API/',
         'githubLink' => 'https://github.com/Patricia-LF/API.git',
@@ -170,6 +234,7 @@ $projects = [
         Two out of three group members, myself included, were particularly engaged in the design work and each created our own Figma drafts. We then combined the best elements from both into a final design. On the development side, I was responsible for the film page and its mobile version, parts of the landing page, and a hamburger menu for mobile navigation.
 
         The biggest technical challenge was Git — we ran into several merge conflicts that took time to resolve, which was a valuable lesson in version control and team workflows. We were also working on Kinforma simultaneously, which meant time was stretched a bit thin. Since the course focus was on design rather than code, some parts of the site are not fully functional, but the Figma-to-code workflow was a great learning experience.',
+
         'technologies' => ['Figma', 'PHP', 'CSS'],
         'demolink' => 'https://wu-project.se/bio-hemsida/',
         'githubLink' => 'https://github.com/Patricia-LF/bio-hemsida',
