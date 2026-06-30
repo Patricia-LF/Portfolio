@@ -116,6 +116,6 @@ footer {
 @media (max-width: 768px) {
   section h1,
   section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }

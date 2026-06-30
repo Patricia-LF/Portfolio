@@ -87,6 +87,7 @@
 
   .tech-groups {
     margin-left: 0;
+    display: contents;
   }
 
   .tech-group h3 {
