@@ -40,21 +40,21 @@ $projects = [
         'mock-mob' => 'in-progress-textTV-mob.png',
     ],
 
-    'Almas portfolio' => [
-        'title' => 'Almas portfolio',
-        'description' => 'Side project — a portfolio website for a design student, built with WordPress. Currently in progress.',
-        'longDescription' => 'Alma, a graphic design and production student at Yrgo, needed help creating a portfolio site. I took on this project as a way to deepen my WordPress skills outside of school.
+    'Student portfolio' => [
+        'title' => 'Student portfolio',
+        'description' => 'Side project — a portfolio website for a graphic design student, built with a custom WordPress theme.',
+        'longDescription' => 'Alma, a graphic design and production student at Yrgo, needed a portfolio site she could manage herself after launch. I took on this project as a way to deepen my WordPress skills outside of school.
 
-    I\'ve planned and led the project from start to finish in close collaboration with Alma — from concept and design to development — with her approval at every step along the way.
+I planned and led the project from start to finish in close collaboration with Alma — from concept and design to development and deployment — with her input and approval at every step.
 
-    Currently working on: final details and refinements before launch.',
+The site is built with a fully custom WordPress theme (no page builder), with a lightbox gallery, video support, a fullscreen mobile navigation overlay, and a reusable page template so Alma can add new projects directly from the WordPress admin without touching any code.',
 
-        'technologies' => ['WordPress', 'CSS'],
-        'demolink' => '',
+        'technologies' => ['WordPress', 'PHP', 'CSS', 'JavaScript'],
+        'demolink' => 'http://hammargraphics.com/',
         'githubLink' => 'https://github.com/Patricia-LF/Almas-portfolio',
-        'image' => 'in-progress.png',
-        'mockup' => 'in-progress-portfolio-desktop.png',
-        'mock-mob' => 'in-progress-portfolio-mob.png',
+        'image' => 'portfolio.jpg',
+        'mockup' => 'portfolio-desktop.png',
+        'mock-mob' => 'portfolio-mob.png',
     ],
 
     'wack-a-rabbit' => [
@@ -69,7 +69,7 @@ $projects = [
         There is plenty of room to expand the game — multiple difficulty levels with increasing rabbit speed, user accounts with saved scores, and a leaderboard are all ideas I would like to explore if I return to the project.',
 
         'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
-        'demolink' => 'https://wu-project.se/wack-a-rabbit/',
+        'demolink' => 'https://patriciafrykberg.se/wack-a-rabbit/',
         'githubLink' => 'https://github.com/Patricia-LF/wack-a-rabbit',
         'image' => 'wackarabbit-img.jpg',
         'mockup' => 'wack-a-rabbit-desktop.png',
@@ -181,7 +181,7 @@ $projects = [
         Since it was our first group project with other educations, we learnt a lot about how to work in a team.',
 
         'technologies' => ['PHP', 'HTML', 'CSS', 'Figma'],
-        'demolink' => 'https://wu-project.se/kinforma/',
+        'demolink' => 'https://patriciafrykberg.se/kinforma/',
         'githubLink' => 'https://github.com/Patricia-LF/kinforma',
         'mockup' => 'kinforma-desktop.png',
         'mock-mob' => 'kinforma-mob.png',
@@ -200,7 +200,7 @@ $projects = [
         Note: The site is not optimized for mobile, as it was not a requirement for the assignment. This is something I plan to address if I revisit the project.',
 
         'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
-        'demolink' => 'https://wu-project.se/yrgopelag/',
+        'demolink' => 'https://patriciafrykberg.se/yrgopelag/',
         'githubLink' => 'https://github.com/Patricia-LF/yrgopelag.git',
         'image' => 'yrgopelag-img.jpg',
         'mockup' => 'yrgopelag-desktop.png',
@@ -218,7 +218,7 @@ $projects = [
         This was my first real encounter with JavaScript, and I found it genuinely difficult at first — particularly understanding how asynchronous code and fetch requests work. I used AI as a learning tool to understand the concepts rather than just getting the answers, which helped me work through the logic step by step. In the end it turned out to be one of my more successful early projects, and it gave me a much stronger foundation in JavaScript going forward.',
 
         'technologies' => ['JavaScript', 'HTML', 'CSS'],
-        'demolink' => 'https://wu-project.se/API/',
+        'demolink' => 'https://patriciafrykberg.se/API/',
         'githubLink' => 'https://github.com/Patricia-LF/API.git',
         'image' => 'simplyseries-img.jpg',
         'mockup' => 'simplyseries-desktop.png',
@@ -236,7 +236,7 @@ $projects = [
         The biggest technical challenge was Git — we ran into several merge conflicts that took time to resolve, which was a valuable lesson in version control and team workflows. We were also working on Kinforma simultaneously, which meant time was stretched a bit thin. Since the course focus was on design rather than code, some parts of the site are not fully functional, but the Figma-to-code workflow was a great learning experience.',
 
         'technologies' => ['Figma', 'PHP', 'CSS'],
-        'demolink' => 'https://wu-project.se/bio-hemsida/',
+        'demolink' => 'https://patriciafrykberg.se/bio-hemsida/',
         'githubLink' => 'https://github.com/Patricia-LF/bio-hemsida',
         'image' => 'bio-futurity-img.jpg',
         'mockup' => 'futurity-desktop.png',
