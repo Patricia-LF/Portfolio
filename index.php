@@ -301,7 +301,7 @@ require_once 'functions/helpers.php';
 
                 <div class="contact-links">
                     <ul>
-                        <li class="contact-link"><a href="mailto:patricia.frykberg@gmail.com"><img src="/assets/icons/email.svg"></a></li>
+                        <li class="contact-link"><a href="mailto:patricia.frykberg@gmail.com"><img src="assets/icons/email.svg"></a></li>
                         <li class="contact-link"><a href="tel:+46704032268"><img src="assets/icons/phone.png"></a></li>
                         <?php foreach ($links as $link): ?>
                             <li class="contact-link"><a href="<?php echo $link['url']; ?>">
