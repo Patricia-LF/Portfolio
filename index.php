@@ -301,16 +301,21 @@ require_once 'functions/helpers.php';
 
                 <div class="contact-links">
                     <ul>
-                        <li><a href="mailto:patricia.frykberg@gmail.com">Email</a></li>
+                        <li class="contact-link"><a href="mailto:patricia.frykberg@gmail.com"><img src="/assets/icons/email.svg"></a></li>
+                        <li class="contact-link"><a href="tel:+46704032268"><img src="assets/icons/phone.png"></a></li>
                         <?php foreach ($links as $link): ?>
-                            <li><a href="<?php echo $link['url']; ?>" target="_blank"><?php echo $link['name']; ?></a></li>
+                            <li class="contact-link"><a href="<?php echo $link['url']; ?>">
+
+                                    <img src="assets/icons/<?php echo $link['icon']; ?>" alt="<?php echo htmlspecialchars($link['name']); ?>">
+
+                                </a></li>
                         <?php endforeach; ?>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <button id="backToTop" class="start-btn" aria-label="Back to top">
+        <button id=" backToTop" class="start-btn" aria-label="Back to top">
             ↑
         </button>
 
