@@ -161,4 +161,21 @@
     font-size: 4rem;
     text-align: left;
   }
+
+  .intro-images {
+    flex-direction: column;
+  }
+
+  .intro-container {
+    width: 90%;
+  }
+
+  .cta a {
+    margin-right: 0px;
+  }
+
+  .carousel-container {
+    width: 90%;
+    height: 30vh;
+  }
 }
