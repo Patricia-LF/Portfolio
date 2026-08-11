@@ -12,7 +12,7 @@ The system supports creating and managing customers, services, and bookings — 
 The booking page features a weekly calendar view built with FullCalendar, with the option to switch between calendar and table view. The app is deployed with the backend on Railway and frontend on Vercel.',
 
         'technologies' => ['C#', 'React', 'TypeScript', 'CSS modules', 'Vite'],
-        'demolink' => '',
+        'demolink' => 'https://booking-system-three-inky.vercel.app/',
         'githubLink' => 'https://github.com/Patricia-LF/booking-system',
         'image' => 'in-progress.png',
         'mockup' => 'booking-desktop.png',
