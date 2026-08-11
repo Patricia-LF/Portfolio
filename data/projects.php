@@ -2,23 +2,21 @@
 $projects = [
     'Booking system' => [
         'title' => 'Booking system',
-        'description' => 'Side project - A full-stack booking system built with a C# REST API and React — currently in progress.',
-        'longDescription' => 'This is a side project I started during the summer to deepen my understanding of C# and backend development. The goal is to build a complete booking system from scratch — something I’m likely to encounter if working as a consultant.
-        
-        The backend is built with ASP.NET Core Web API and Entity Framework Core, connected to a SQLite database. The frontend is built with React and TypeScript using Vite, with React Router for navigation.
+        'description' => 'Side project - A full-stack booking system with a C# REST API, React frontend, and calendar view.',
+        'longDescription' => 'This is a side project I started during the summer of 2026 to deepen my understanding of C# and backend development.
 
-        So far the system supports creating and managing customers, services, and bookings — including automatic end time calculation based on service duration.
+The backend is built with ASP.NET Core Web API and Entity Framework Core, connected to a SQLite database. The frontend is built with React and TypeScript using Vite, with React Router for navigation and CSS Modules for styling.
 
-        Currently working on: styling with CSS Modules.
+The system supports creating and managing customers, services, and bookings — including automatic end time calculation based on service duration, double booking prevention, and input validation on both frontend and backend.
 
-        Planned features: validation on the backend, a calendar view for available time slots, and authentication.',
+The booking page features a weekly calendar view built with FullCalendar, with the option to switch between calendar and table view. The app is deployed with the backend on Railway and frontend on Vercel.',
 
         'technologies' => ['C#', 'React', 'TypeScript', 'CSS modules', 'Vite'],
         'demolink' => '',
         'githubLink' => 'https://github.com/Patricia-LF/booking-system',
         'image' => 'in-progress.png',
-        'mockup' => 'in-progress-booking-desktop.png',
-        'mock-mob' => 'in-progress-booking-mob.png',
+        'mockup' => 'booking-desktop.png',
+        'mock-mob' => 'booking-mob.png',
     ],
 
     'TextTV online' => [
