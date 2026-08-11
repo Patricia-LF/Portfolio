@@ -16,11 +16,11 @@ include 'data/projects.php';
                         <?php echo $project['description']; ?>
                     </p>
                     <!-- Link to project-page with key as a parameter -->
-                    <span class="btn-arrow">
+                    <a href="project-page.php?project=<?php echo urlencode($projectKey); ?>" class="btn-arrow">
                         <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
-                    </span>
+                    </a>
 
                     <div class="project-tech">
                         <?php foreach ($project['technologies'] as $tech): ?>
