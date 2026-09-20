@@ -1,23 +1,23 @@
 const slides = [
   {
-    image: "assets/images/runtime-img.png",
-    title: "Runtime terror",
-    subtitle: "Runtime terror",
+    image: "assets/images/configurator-light.jpg",
+    title: "Configurator",
+    subtitle: "Configurator",
   },
   {
-    image: "assets/images/wackarabbit-img.jpg",
-    title: "Wack-a-rabbit",
-    subtitle: "Wack-a-rabbit",
+    image: "assets/images/portfolio-img.jpg",
+    title: "Student portfolio",
+    subtitle: "Student portfolio",
   },
   {
-    image: "assets/images/Text-tv-img.jpg",
+    image: "assets/images/text-tv-online.jpg",
     title: "TextTV Online",
     subtitle: "TextTV Online",
   },
   {
-    image: "assets/images/LIA-connect.jpg",
-    title: "LIA Connect",
-    subtitle: "LIA Connect",
+    image: "assets/images/runtime-img.png",
+    title: "Runtime terror",
+    subtitle: "Runtime terror",
   },
   {
     image: "assets/images/cloudops-img.jpg",
@@ -25,9 +25,14 @@ const slides = [
     subtitle: "CloudOps",
   },
   {
-    image: "assets/images/portfolio-img.jpg",
-    title: "Student portfolio",
-    subtitle: "Student portfolio",
+    image: "assets/images/LIA-connect.jpg",
+    title: "LIA Connect",
+    subtitle: "LIA Connect",
+  },
+  {
+    image: "assets/images/wackarabbit-img.jpg",
+    title: "Wack-a-rabbit",
+    subtitle: "Wack-a-rabbit",
   },
 ];
 

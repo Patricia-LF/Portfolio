@@ -1,5 +1,28 @@
 <?php
 $projects = [
+    'Configurator' => [
+        'title' => 'Configurator',
+        'description' => 'Interactive 3D product configurator',
+        'meta' => 'Cross-disciplinary group project – 7 people, 2 web developers | [2 weeks]',
+        'longDescription' => 'This is an interactive 3D web configurator for a media console with a built-in vinyl player, built as a cross-disciplinary project spanning Digital Design (DD), Computer Graphics Design (CG) and Web Development (WU). DD designed the UI in Figma, CG modeled and animated the product in Blender, and the WU team built the web application that ties it all together.
+
+Features
+Users step through a card-based flow to configure the console — size, speaker (or side cabinets on the larger model), surface finish, wood veneer, leg material, and turntable details — with the 3D model updating live via mesh visibility and material swapping rather than a single swappable mesh. Zoom hotspots track their target part (legs, speaker, front panel) on screen as the user orbits the camera, and clicking one smoothly tweens the camera in to a matching close-up. A separate cinematic camera plays a baked turntable close-up when the user reaches that step. A light/dark theme toggle switches both the UI and the 3D backdrop, and the running price updates live based on the selected options.
+
+My responsibilities
+I was one of two web developers on the team. I built the configurator panel and its step-by-step flow, the option button and card components (including default/active/touched visual states and material/color swatches), the Context-based state management for the configurator, theme and zoom systems, and the price calculation logic. I also worked extensively on integrating the 3D model with the configurator state — reverse-engineering the mesh naming conventions from CG\'s exports, building the visibility/material mapping logic, and debugging the camera zoom system (tweening to the correct position and orientation, keeping it in sync with OrbitControls, and making sure hotspots and zoom targets always matched).
+
+Challenges
+The biggest challenge was coordinating across three disciplines with an evolving 3D export — mesh names, available options and their relationships (e.g. which parts exist only on the larger size) changed multiple times as CG\'s model developed, requiring the configurator logic to be re-verified against CG\'s actual product catalog rather than assumptions. Getting the camera zoom to feel smooth and land in a consistent, predictable position regardless of the camera\'s current orbit angle also took several iterations — from relying on CG\'s baked camera animation, to computing zoom targets directly from the model\'s geometry, to smoothing both position and rotation to avoid visual snapping.',
+
+        'technologies' => ['React', 'Vite', 'Three.js', 'JavaScript', 'CSS Modules'],
+        'demolink' => 'https://vinyl-console-configurator.vercel.app/',
+        'githubLink' => 'https://github.com/Patricia-LF/Configurator',
+        'image' => '',
+        'mockup' => 'configurator-desktop.png',
+        'mock-mob' => 'configurator-mob.png',
+    ],
+
     'Booking system' => [
         'title' => 'Booking system',
         'description' => 'Side project - A full-stack booking system with a C# REST API, React frontend, and calendar view.',
@@ -205,7 +228,7 @@ The site is built with a fully custom WordPress theme (no page builder), with a 
         'mock-mob' => 'yrgopelag-mob.png',
     ],
 
-    'simplyseries' => [
+    /*  'simplyseries' => [
         'title' => 'Simply Series',
         'description' => 'TV show search application',
         'meta' => '2 weeks',
@@ -221,7 +244,7 @@ The site is built with a fully custom WordPress theme (no page builder), with a 
         'image' => 'simplyseries-img.jpg',
         'mockup' => 'simplyseries-desktop.png',
         'mock-mob' => 'simplyseries-mob.png',
-    ],
+    ], */
 
     'futurity' => [
         'title' => 'Futurity',

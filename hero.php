@@ -8,7 +8,7 @@
                 <p class="intro">
                     Hi! I’m Patricia, currently studying Web Development at Yrgo in Gothenburg. I love building clean, maintainable apps where backend logic and frontend experience work together.
                 </p>
-                <p class="intro">I'm actively looking for a LIA internship for the period Nov 23, 2026 – May 28, 2027.
+                <p class="intro">I'm actively looking for a LIA internship for the period Nov 24, 2026 – May 28, 2027.
                 </p>
                 <div class="cta">
                     <a href="CV Patricia Loayza Frykberg 260816.pdf" download target="_blank" class="btn-download">

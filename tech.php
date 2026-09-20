@@ -23,6 +23,7 @@
                           <li>JavaScript<img src="assets/logos/js-logo.png"></li>
                           <li>React<img src="assets/logos/react-logo.png"></li>
                           <li>Tailwind<img src="assets/logos/tailwind-logo.jpg"></li>
+                          <li>Three.js<img src="assets/logos/three.js.png"></li>
                       </ul>
                   </div>
 
@@ -55,6 +56,7 @@
                       <img src="assets/logos/vscode-logo.png" alt="VS Code">
                       <img src="assets/logos/github-logo.webp" alt="GitHub">
                       <img src="assets/logos/sqlite-logo.webp" alt="Sqlite">
+                      <img src="assets/logos/three.js.png" alt="Three.js">
                   </div>
                   <p class="spinner-label">Full program curriculum</p>
               </article>
