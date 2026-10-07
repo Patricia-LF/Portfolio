@@ -5,15 +5,20 @@ const slides = [
     subtitle: "Configurator",
   },
   {
+    image: "assets/images/art-gallery-img.jpg",
+    title: "Art Gallery",
+    subtitle: "Art Gallery",
+  },
+  {
     image: "assets/images/portfolio-img.jpg",
     title: "Student portfolio",
     subtitle: "Student portfolio",
   },
-  {
+  /*   {
     image: "assets/images/text-tv-online.jpg",
     title: "TextTV Online",
     subtitle: "TextTV Online",
-  },
+  }, */
   {
     image: "assets/images/runtime-img.png",
     title: "Runtime terror",

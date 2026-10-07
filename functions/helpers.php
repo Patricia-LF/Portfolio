@@ -11,7 +11,7 @@ $techColors = [
     'css'  => 'rgb(91, 175, 243)',
     'css modules' => 'rgb(91, 104, 243)',
     'node.js' => '#91de8a',
-    'next.js' => '#787878',
+    'next.js' => '#ababab',
     'react' => 'rgb(97, 218, 251)',
     'laravel' => '#ff2b20',
     'wordpress' => '#30ace5',
@@ -23,6 +23,9 @@ $techColors = [
     'framer motion' => '#5c8b5a',
     'howler.js' => '#b958cd',
     'zustand' => 'rgb(247, 120, 217)',
+    'three.js' => 'rgb(198, 247, 120)',
+    'sanity' => 'rgb(215, 233, 252)',
+    'groq' => 'rgb(158, 134, 116)',
 ];
 
 // Function that returns a color, fallback if tech doesn't exist

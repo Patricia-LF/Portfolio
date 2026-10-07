@@ -1,5 +1,24 @@
 <?php
 $projects = [
+    'Art gallery' => [
+        'title' => 'Art gallery',
+        'description' => 'Side project - A gallery of my own artwork built with Next.js and Sanity as a headless CMS.',
+        'longDescription' => 'This is a side project I started in the autumn of 2026 to practice Sanity and headless CMS development, using my own paintings, photographs, sculptures and 3D work made in Blender as content.
+
+The frontend is built with Next.js and React, and all content is managed in a Sanity Studio embedded in the app at /studio. Data is fetched with GROQ, and images are served from the Sanity CDN with a blurred placeholder while loading.
+
+All artworks share one document type with a category field. Fields that only belong to some categories, such as medium for paintings, camera for photos and software for 3D work, are shown in the Studio only when that category is chosen, and conditional GROQ projections make sure the frontend only receives the fields that belong to each artwork.
+
+The start page shows one card per category as a stack of artworks that fans out on hover, with a featured switch in the Studio to choose which artworks appear there. Each category leads to a masonry gallery, and each artwork has its own page with clickable thumbnails for extra images. The app is deployed on Vercel with a custom subdomain.',
+
+        'technologies' => ['Next.js', 'React', 'Sanity', 'GROQ', 'JavaScript', 'CSS'],
+        'demolink' => 'https://art.patriciafrykberg.se/',
+        'githubLink' => 'https://github.com/Patricia-LF/art-gallery',
+        'image' => 'art-gallery-img.jpg',
+        'mockup' => 'art-gallery-desktop.png',
+        'mock-mob' => 'art-gallery-mob.png',
+    ],
+
     'Configurator' => [
         'title' => 'Configurator',
         'description' => 'Interactive 3D product configurator',
@@ -49,7 +68,7 @@ The booking page features a weekly calendar view built with FullCalendar, with t
         
         The app fetches live content from a public TextTV API and presents it through clear, navigable sections: domestic news, foreign news, sports, and weather. The start page gives a quick overview of each, with dedicated pages for the full content.
         
-        Currently working on: a page-number search feature, and refining the content layout and styling section by section.
+        Currently working on: Refining the content layout and styling section by section.
         
         Planned features: improved error handling for the API integration, and a settings panel for font size and contrast — small touches aimed at making the experience more comfortable for less tech-savvy users.',
 
@@ -218,7 +237,7 @@ The site is built with a fully custom WordPress theme (no page builder), with a 
 
         Getting the availability logic right was tricky — making sure overlapping bookings were correctly handled in the database required careful planning of the query structure.
         
-        Note: The site is not optimized for mobile, as it was not a requirement for the assignment. This is something I plan to address if I revisit the project.',
+        Note: Mobile optimization was not a requirement for the original assignment, but has since been added.',
 
         'technologies' => ['PHP', 'JavaScript', 'HTML', 'CSS'],
         'demolink' => 'https://patriciafrykberg.se/yrgopelag/',
