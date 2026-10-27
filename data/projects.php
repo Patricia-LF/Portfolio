@@ -82,16 +82,18 @@ The booking page features a weekly calendar view built with FullCalendar, with t
 
     'Student portfolio' => [
         'title' => 'Student portfolio',
-        'description' => 'Side project — a portfolio website for a graphic design student, built with a custom WordPress theme.',
+        'description' => 'Side project — a portfolio website for a graphic design student, originally built with a custom WordPress theme and later rebuilt in Next.js and Sanity after a security incident.',
         'longDescription' => 'Alma, a graphic design and production student at Yrgo, needed a portfolio site she could manage herself after launch. I took on this project as a way to deepen my WordPress skills outside of school.
 
 I planned and led the project from start to finish in close collaboration with Alma — from concept and design to development and deployment — with her input and approval at every step.
 
-The site is built with a fully custom WordPress theme (no page builder), with a lightbox gallery, video support, a fullscreen mobile navigation overlay, and a reusable page template so Alma can add new projects directly from the WordPress admin without touching any code.',
+The site was originally built with a fully custom WordPress theme (no page builder), with a lightbox gallery, video support, a fullscreen mobile navigation overlay, and a reusable page template so Alma can add new projects without touching any code.
 
-        'technologies' => ['WordPress', 'PHP', 'CSS', 'JavaScript'],
+After the site was compromised through a WordPress vulnerability — and with limited support from the hosting provider — I rebuilt it in Next.js with Sanity as a headless CMS. The redesign replicates the original layout and functionality as closely as possible, and Alma can still manage all her content herself through Sanity Studio.',
+
+        'technologies' => ['Next.js', 'React', 'Sanity', 'CSS', 'JavaScript'],
         'demolink' => 'http://hammargraphics.com/',
-        'githubLink' => 'https://github.com/Patricia-LF/Almas-portfolio',
+        'githubLink' => 'https://github.com/Patricia-LF/portfolio-alma',
         'image' => 'portfolio.jpg',
         'mockup' => 'portfolio-desktop.png',
         'mock-mob' => 'portfolio-mob.png',
